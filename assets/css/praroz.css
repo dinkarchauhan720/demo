@@ -1,0 +1,229 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	width: 100%;
+	background-image: url(back.jpg);
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.logo{
+	position: absolute;
+	width: 60px;
+	padding: 20px;
+	z-index:1;
+}
+.menu{
+	width: 100%;
+	height: 80px;
+	background-color: black;
+	opacity: 0.5;
+}
+ul{
+	padding-left: 230px;
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+ul li{
+	padding: 10px;
+	list-style: none;
+	margin-left: 50px;
+	margin-top: 27px;
+	font-size: 14px;
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+	color: red;
+}
+.search{
+	position: absolute;
+	float:left;
+	margin-left: 1010px;
+	margin-top: -150px;
+}
+.srch{
+	padding-left: 10px;
+	color: white;
+	outline: none;
+	border-radius: 3px;
+	background: transparent;
+	width: 260px;
+	height: 24px;
+	border: 1px solid orange;
+	margin-top: 100px;
+}
+.btn{
+	border: none;
+	margin-left: -80px;
+	background: orange;
+	width: 80px;
+	height: 26px;
+	border-radius: 3px;
+}
+.btn a{
+	font-size: 14px;
+	color: white;
+	text-decoration: none;
+}
+.btn:hover{
+	background-color: red;
+}
+h1{
+	padding: 120px 50px;
+	color: white;
+	font-size: 55px;
+}
+span{
+	color: orange;
+	font-size: 70px;
+}
+p{
+	color: white;
+	font-size: 18px;
+	padding: 50px;
+	margin-top: -170px;
+}
+.join{
+	background-color: orange;
+	color: white;
+	width: 100px;
+	height: 30px;
+	border-radius: 3px;
+	border-color: orange;
+	margin-left: 50px;
+}
+button a{
+	color: white;
+	text-decoration: none;
+}
+form{
+	background-color: black;
+	opacity: 0.8;
+	border-radius: 10px;
+	width: 280px;
+	height: 400px;
+	border: 1px solid;
+	margin-right: 80px;
+	margin-top: -400px;
+	float: right;
+	float: top;
+	transition: .6s ease-in-out;
+}
+form:hover{
+	box-shadow: 1px 1px 10px 5px orange;
+
+}
+form h2{
+	background-color: white;
+	color: orange;
+	width: 200px;
+	border-radius: 10px;
+	margin-left: 40px;
+	margin-top: 20px;
+	text-align: center;
+}
+.xyz{
+	margin-top: 30px;
+}
+.id{
+	padding-left: 10px;
+	font-size: 18px;
+	outline: none;
+	background: transparent;
+	color: white;
+	width: 200px;
+	margin-left: 35px;
+	margin-top: 20px;
+	padding-bottom: 5px;
+	border: none;
+	border-bottom: 1px solid orange; 
+
+}
+.login{
+	border-radius: 3px;
+	height: 30px;
+	width: 200px;
+	margin:40px;
+	margin-left: 40px;
+	background-color: orange;
+	border: none;
+}
+.don{
+	margin-top: -80px;
+	text-align: center;
+}
+.don a{
+	color: orange;
+	text-decoration-line: none;
+}
+h6{
+	text-align: center;
+	font-size: 20px;
+	color: white;
+	margin-top: -30px;
+}
+.lg{
+	width: 35px;
+	padding-top: 10px;
+	margin: 5px;
+}
+.log{
+	text-align: center;
+}
+
+
+@media (max-width:480px){
+	ul{
+	
+	padding-left: 80px;
+	
+}
+ul li a{
+	margin-left: -40px;
+	font-size: 12px;
+}
+.search{	
+		margin-left: 100px;
+		margin-top: -45px;
+		margin-bottom: 30px;	
+	}
+.btn{
+	position: absolute;
+	border: none;
+	margin-top: 100px;
+	margin-left: -80px;
+}	
+h1{margin-left: 60px;
+	margin-top: 10px;
+	padding:120px 10px;
+	font-size: 45px;
+}
+span{
+	font-size: 60px;
+}
+p{	margin-left: 30px;
+	margin-top: -120px;
+}
+.join{
+	margin-left: 80px;
+	margin-bottom: 20px;
+	
+}
+	form{
+		float: center;
+		margin-right: 95px;
+		margin-top: 30px;
+		height: 450px;
+		margin-bottom: 50px;
+		}
+	
